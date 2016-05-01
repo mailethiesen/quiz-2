@@ -1,0 +1,62 @@
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.btn.btn-block {
+    width: 100%;
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6em 1.5em;
+    border-radius: 2px;
+    background-color: #2196f3;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1.6rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.24), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.2s ease;
+}
+
+
+
+:hov
+
+
+.cls
+
+element.style {
+}
+.form__input {
+    display: block;
+    position: relative;
+    margin-top: 1em;
+    padding: 0.84em 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 1.6rem;
+    outline: 0;
+    border: none;
+    border-bottom: solid 1px #ddd;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    -o-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #2196f3 4%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #2196f3 4%);
+    background-position: -400px 0;
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    }

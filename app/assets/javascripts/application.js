@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+document.querySelector('a').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.classList.toggle('opened');
+});
