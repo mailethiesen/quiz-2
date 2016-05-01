@@ -7,13 +7,17 @@
 </head>
 <body>
 
-<div class="mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout-icon"></div>
-      <div class="mdl-layout__header-row">
-        <span class="mdl-layout__title">Simple Layout</span>
-      </div>
+<!-- Header -->
+  <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout-icon"></div>
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout__title">Simple Layout</span>
+        </div>
   </header>
+<!-- Header -->
+
+<!-- Dropdown Nav -->
   <div class="mdl-layout__drawer">
     <span class="mdl-layout__title">Simple Layout</span>
       <nav class="mdl-navigation">
@@ -22,19 +26,31 @@
         <a class="mdl-navigation__link" href="#">Nav link 3</a>
       </nav>
     </div>
+<!-- Dropdown Nav -->
   <br class="clear" />
 
+
+
+<!-- Action Button -->
     <main class="mdl-layout__content">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--1-col">
         <%= link_to new_book_path do %>
+         
+          <div class="float-button">
+          <span class="height-fix">
           <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored show-modal">
              <i class="material-icons">add</i>
           </button>
         <% end %>
       </div>
+       </span>
+        </div>
           
     </div>
+<!-- Action Button -->
+
+<!-- Cards -->
     <div class="mdl-grid">
     <% @books.each do |book| %>
   
@@ -52,6 +68,7 @@
     </div>
     <hr />
     <% end %>
+<!-- Cards -->
 
 
 <style>
